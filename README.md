@@ -15,11 +15,19 @@ d=[0.0 ... 1.0]
 <br>
 How to run the models (considering Python3.7 and all necessary libraries are correctly installed on the machine):
 <br>
-To run the required model, provide the desired hyper-parameters, training and testing files like: <i>python path/to/project2.py V-value n-value d-value path/to/training-file-name.txt path/to/testing-file-name.txt</i>
+To run the required model, provide the desired hyper-parameters, training and testing files like:
 <br>
-First BYOM runs in a similar fashion as the required model: <i>python path/to/project2-byom.py V-value n-value d-value path/to/training-file-name.txt path/to/testing-file-name.txt</i>
-<br>
-To run the second BYOM, provide the testing file and make sure the training files (eu.txt, ca.txt, en.txt, gl.txt, pt.txt and es.txt) are in the same directory as the program: <i>python path/to/project2-byom2.py path/to/testing-file-name.txt</i>
+<i>python path/to/project2.py V-value n-value d-value path/to/training-file-name.txt path/to/testing-file-name.txt</i>
 <br>
 <br>
-For more information regarding the project, please refer to the <i>project2-handout.pdf</i>
+First BYOM runs in a similar fashion as the required model:
+<br>
+<i>python path/to/project2-byom.py V-value n-value d-value path/to/training-file-name.txt path/to/testing-file-name.txt</i>
+<br>
+<br>
+To run the second BYOM, provide the testing file and make sure the training files (eu.txt, ca.txt, en.txt, gl.txt, pt.txt and es.txt) are in the same directory as the program:
+<br>
+<i>python path/to/project2-byom2.py path/to/testing-file-name.txt</i>
+<br>
+<br>
+For more information regarding the project, please refer to the <i>COMP_472_2020_Winter_Project_2-SchoolClosing.pdf</i>
