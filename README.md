@@ -1,20 +1,32 @@
-https://github.com/sbouab/comp472_project2
+Repository URL: https://github.com/sbouab/comp472_project2
 <br>
 <br>
-NOTE: INSTRUCTIONS TO RUN THE CODE ON THE LAB COMPUTERS NOT APPLICABLE (BECAUSE OF THE CORONAVIRUS SITUATION)
+<b>NOTE:</b> <i>project2.py</i> contains the project code for the required model implementation while <i>project2-byom.py</i> and <i>project2-byom2.py</i> contain the BYOM (custom) model implementations. The first BYOM is similar to the required one, but with a few tweaks, while the second BYOM uses another dataset to train the classifier and more tweaks in order to try to improve the language identification method (unsuccessfully so).
 <br>
 <br>
-TO RUN THE CODE (CONSIDERING PYTHON 3 AND ALL NECESSARY LIBRARIES ARE DOWNLOADED AND INSTALLED):
+Possible hyper-parameters:
 <br>
--NAVIGATE TO THE DIRECTORY WHERE THE MODEL AND THE TRAINING AND TESTING FILES ARE
+V=[0,1,2]
 <br>
--OPEN THE TERMINAL IN THAT DIRECTORY
+n=[1,2,3]
 <br>
--RUN REQUIRED MODEL AS FOLLOWS: "python ./project2.py V N D ./training-file.txt ./testing-file.txt"
+d=[0.0 ... 1.0]
 <br>
--RUN BYOM MODEL AS FOLLOWS (I USED V=2, N=2 AND D=2 FOR THE BYOM): "python ./project2-byom.py 2 2 0.01 ./training-file.txt ./testing-file.txt"
 <br>
--RUN BYOM2 MODEL AS FOLLOWS: "python ./project2-byom2.py ./testing-file.txt"
+How to run the models (considering Python3.7 and all necessary libraries are correctly installed on the machine):
 <br>
--OUTPUT FILES WILL BE GENERATED IN THE SAME DIRECTORY
+1) To run the required model, provide the desired hyper-parameters, training and testing files like:
+<br>
+<i>python path/to/project2.py V-value n-value d-value path/to/training-file-name.txt path/to/testing-file-name.txt</i>
+<br>
+<br>
+2) First BYOM runs in a similar fashion as the required model:
+<br>
+<i>python path/to/project2-byom.py V-value n-value d-value path/to/training-file-name.txt path/to/testing-file-name.txt</i>
+<br>
+<br>
+3) To run the second BYOM, provide the testing file and make sure the training files (eu.txt, ca.txt, en.txt, gl.txt, pt.txt and es.txt) are in the same directory as the program:
+<br>
+<i>python path/to/project2-byom2.py path/to/testing-file-name.txt</i>
+<br>
 <br>
