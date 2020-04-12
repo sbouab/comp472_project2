@@ -30,3 +30,4 @@ How to run the models (considering Python3.7 and all necessary libraries are cor
 <i>python path/to/project2-byom2.py path/to/testing-file-name.txt</i>
 <br>
 <br>
+For more information regarding the project, please refer to the <i>project2-handout.pdf</i>
