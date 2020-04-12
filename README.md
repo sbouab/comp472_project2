@@ -13,22 +13,22 @@ n=[1,2,3]
 d=[0.0 ... 1.0]
 <br>
 <br>
-How to run the models (considering Python3.7 and all necessary libraries are correctly installed on the machine):
+<b>How to run the models</b> (considering Python3.7 and all necessary libraries are correctly installed on the machine):
 <br>
 <br>
-To run the required model, provide the desired hyper-parameters, training and testing files like:
+-To run the required model, provide the desired hyper-parameters, training and testing files like:
 <br>
 <i>python path/to/project2.py V-value n-value d-value path/to/training-file-name.txt path/to/testing-file-name.txt</i>
 <br>
 <br>
-First BYOM runs similarly to the required model:
+-First BYOM runs similarly to the required model:
 <br>
 <i>python path/to/project2-byom.py V-value n-value d-value path/to/training-file-name.txt path/to/testing-file-name.txt</i>
 <br>
 <br>
-To run the second BYOM, provide the testing file and make sure the training files (eu.txt, ca.txt, en.txt, gl.txt, pt.txt and es.txt) are in the same directory as the program:
+-To run the second BYOM, provide the testing file and make sure the training files (eu.txt, ca.txt, en.txt, gl.txt, pt.txt and es.txt) are in the same directory as the program:
 <br>
 <i>python path/to/project2-byom2.py path/to/testing-file-name.txt</i>
 <br>
 <br>
-For more information regarding the project, please refer to <i>COMP_472_2020_Winter_Project_2-SchoolClosing.pdf</i>
+<b>For more information</b> regarding the project, please refer to <i>COMP_472_2020_Winter_Project_2-SchoolClosing.pdf</i>
