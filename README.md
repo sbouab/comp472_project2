@@ -21,7 +21,7 @@ To run the required model, provide the desired hyper-parameters, training and te
 <i>python path/to/project2.py V-value n-value d-value path/to/training-file-name.txt path/to/testing-file-name.txt</i>
 <br>
 <br>
-First BYOM runs in a similar fashion as the required model:
+First BYOM runs similarly to the required model:
 <br>
 <i>python path/to/project2-byom.py V-value n-value d-value path/to/training-file-name.txt path/to/testing-file-name.txt</i>
 <br>
