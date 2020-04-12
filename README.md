@@ -13,7 +13,7 @@ n=[1,2,3]
 d=[0.0 ... 1.0]
 <br>
 <br>
-<b>How to run the models</b> (considering Python3.7 and all necessary libraries are correctly installed on the machine):
+<b>How to run</b> the models (considering Python3.7 and all necessary libraries are correctly installed on the machine):
 <br>
 -To run the required model, provide the desired hyper-parameters, training and testing files like:
 <br>
