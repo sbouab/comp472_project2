@@ -4,7 +4,7 @@ Repository URL: https://github.com/sbouab/comp472_project2
 <b>NOTE:</b> <i>project2.py</i> contains the project code for the required model implementation while <i>project2-byom.py</i> and <i>project2-byom2.py</i> contain the BYOM (custom) implementations. The first BYOM is similar to the required one, but with a few tweaks, while the second BYOM uses another dataset to train the classifier and more tweaks in order to try to improve the language identification method (unsuccessfully so).
 <br>
 <br>
-<b>Possible hyper-parameters</b>:
+<b>Possible hyper-parameters:</b>
 <br>
 V=[0,1,2]
 <br>
